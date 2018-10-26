@@ -132,7 +132,7 @@ class Registry:
         ]
 
         self._internal_default_evaluators = [
-            ObjectDetectioneEvaluatorDefaultProvider,
+            ObjectDetectionEvaluatorDefaultProvider,
             ChipClassificationEvaluatorDefaultProvider,
             SemanticSegmentationEvaluatorDefaultProvider
         ]
