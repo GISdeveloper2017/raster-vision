@@ -43,7 +43,7 @@ class ChipClassificationLabelSourceDefaultProvider(
                                    .build()
 
 
-class SemanticSegmentationRasterSourceDefaultProvider(
+class SemanticSegmentationLabelSourceDefaultProvider(
         LabelSourceDefaultProvider):
     @staticmethod
     def handles(task_type, uri):
